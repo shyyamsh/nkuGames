@@ -1,0 +1,35 @@
+/* [project]/styles/NavBar.module.css [client] (css) */
+.NavBar-module__Qc37tW__nav {
+  z-index: 100;
+  background: #000000b3;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.NavBar-module__Qc37tW__link {
+  color: #fff;
+  margin: 0 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.NavBar-module__Qc37tW__link:hover {
+  color: #fc0;
+}
+
+@media (max-width: 600px) {
+  .NavBar-module__Qc37tW__nav {
+    flex-direction: column;
+  }
+
+  .NavBar-module__Qc37tW__link {
+    margin: .5rem 0;
+  }
+}
+
+/*# sourceMappingURL=styles_NavBar_module_0ke74-7.css.map*/

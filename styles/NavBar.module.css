@@ -1,0 +1,32 @@
+/* styles for the navigation bar */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.link {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #ffcc00;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+  .link {
+    margin: 0.5rem 0;
+  }
+}

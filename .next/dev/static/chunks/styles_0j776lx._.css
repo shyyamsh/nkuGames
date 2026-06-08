@@ -1,0 +1,113 @@
+/* [project]/styles/NavBar.module.css [client] (css) */
+.NavBar-module__Qc37tW__nav {
+  z-index: 100;
+  background: #000000b3;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.NavBar-module__Qc37tW__link {
+  color: #fff;
+  margin: 0 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.NavBar-module__Qc37tW__link:hover {
+  color: #fc0;
+}
+
+@media (max-width: 600px) {
+  .NavBar-module__Qc37tW__nav {
+    flex-direction: column;
+  }
+
+  .NavBar-module__Qc37tW__link {
+    margin: .5rem 0;
+  }
+}
+
+/* [project]/styles/Home.module.css [client] (css) */
+.Home-module__g21JLG__container {
+  background: url("/images/3d-bg.png") center / cover no-repeat fixed;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+.Home-module__g21JLG__main {
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  display: flex;
+}
+
+.Home-module__g21JLG__title {
+  margin: .5rem 0;
+  font-size: 4rem;
+}
+
+.Home-module__g21JLG__title, .Home-module__g21JLG__description {
+  color: #fff;
+  text-align: center;
+}
+
+.Home-module__g21JLG__gameGrid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1rem;
+  display: grid;
+}
+
+@media (max-width: 600px) {
+  .Home-module__g21JLG__title {
+    font-size: 2.5rem;
+  }
+
+  .Home-module__g21JLG__description {
+    font-size: 1rem;
+  }
+}
+
+/* [project]/styles/GameCard.module.css [client] (css) */
+.GameCard-module__YJEsyG__card {
+  background: #fff;
+  border-radius: 8px;
+  transition: transform .3s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.GameCard-module__YJEsyG__card:hover {
+  transform: translateY(-4px);
+}
+
+.GameCard-module__YJEsyG__image {
+  border: 4px solid #fff;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.GameCard-module__YJEsyG__card h3 {
+  margin: .5rem;
+  font-size: 1.2rem;
+}
+
+.GameCard-module__YJEsyG__card p {
+  color: #555;
+  margin: .5rem;
+}
+
+/*# sourceMappingURL=styles_0j776lx._.css.map*/

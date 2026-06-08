@@ -18,13 +18,15 @@
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0.5rem 0;
 }
 
+.title,
 .description {
-  font-size: 1.25rem;
-  color: #666;
+  color: #fff;
+  text-align: center;
+  /* No outline for description */
 }
 
 .gameGrid {

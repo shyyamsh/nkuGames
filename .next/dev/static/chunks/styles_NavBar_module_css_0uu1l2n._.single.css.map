@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/NavBar.module.css"],"sourcesContent":["/* styles for the navigation bar */\r\n.nav {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background: rgba(0, 0, 0, 0.7);\r\n  padding: 1rem 2rem;\r\n  position: sticky;\r\n  top: 0;\r\n  z-index: 100;\r\n}\r\n\r\n.link {\r\n  color: #fff;\r\n  margin: 0 1rem;\r\n  text-decoration: none;\r\n  font-weight: 600;\r\n  transition: color 0.2s ease;\r\n}\r\n\r\n.link:hover {\r\n  color: #ffcc00;\r\n}\r\n\r\n@media (max-width: 600px) {\r\n  .nav {\r\n    flex-direction: column;\r\n  }\r\n  .link {\r\n    margin: 0.5rem 0;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;;;;;AAWA;;;;;;;;AAQA;;;;AAIA;EACE;;;;EAGA"}}]
+}

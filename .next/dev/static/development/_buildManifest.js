@@ -2,6 +2,15 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
+  "/MineSweeper": [
+    "static/chunks/pages/MineSweeper.js"
+  ],
+  "/RetroSnake": [
+    "static/chunks/pages/RetroSnake.js"
+  ],
+  "/Tetris": [
+    "static/chunks/pages/Tetris.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
@@ -9,6 +18,9 @@ self.__BUILD_MANIFEST = {
   },
   "sortedPages": [
     "/",
+    "/MineSweeper",
+    "/RetroSnake",
+    "/Tetris",
     "/_app",
     "/_error"
   ]

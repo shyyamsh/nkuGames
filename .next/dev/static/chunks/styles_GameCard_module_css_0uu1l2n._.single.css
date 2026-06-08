@@ -12,8 +12,12 @@
 }
 
 .GameCard-module__YJEsyG__image {
+  border: 4px solid #fff;
   width: 100%;
+  max-width: 200px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .GameCard-module__YJEsyG__card h3 {

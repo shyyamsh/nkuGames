@@ -17,12 +17,12 @@
 
 .Home-module__g21JLG__title {
   margin: .5rem 0;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
-.Home-module__g21JLG__description {
-  color: #666;
-  font-size: 1.25rem;
+.Home-module__g21JLG__title, .Home-module__g21JLG__description {
+  color: #fff;
+  text-align: center;
 }
 
 .Home-module__g21JLG__gameGrid {
