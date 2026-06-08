@@ -1,0 +1,6 @@
+{
+  "reactStrictMode": true,
+  "images": {
+    "remotePatterns": []
+  }
+}
