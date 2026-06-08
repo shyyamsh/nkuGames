@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Home.module.css [ssr] (css module)"],"sourcesContent":["__turbopack_context__.v({\n});\n"],"names":[],"mappings":"AAAA;AACA"}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///E:/SecondSem/programming/nkuGames/pages/index.tsx"],"sourcesContent":["import Head from 'next/head'\r\nimport Image from 'next/image'\r\nimport styles from '../styles/Home.module.css'\r\n\r\nexport default function Home() {\r\n  return (\r\n    <div className={styles.container}>\r\n      <Head>\r\n        <title>NKU Games</title>\r\n        <meta name=\"description\" content=\"Multiplayer games portal\" />\r\n        <link rel=\"icon\" href=\"/favicon.ico\" />\r\n      </Head>\r\n\r\n      <main className={styles.main}>\r\n        <h1 className={styles.title}>Welcome to NKU Games</h1>\r\n        <p className={styles.description}>Your multiplayer gaming hub.</p>\r\n      </main>\r\n    </div>\r\n  )\r\n}\r\n"],"names":["Home","className","container","name","content","rel","href","main","title","description"],"mappings":";;;;;AAAA;AAEA;;;;AAEe,SAASA;IACtB,qBACE,qKAAC;QAAIC,WAAW,8HAAM,CAACC,SAAS;;0BAC9B,qKAAC,gIAAI;;kCACH,qKAAC;kCAAM;;;;;;kCACP,qKAAC;wBAAKC,MAAK;wBAAcC,SAAQ;;;;;;kCACjC,qKAAC;wBAAKC,KAAI;wBAAOC,MAAK;;;;;;;;;;;;0BAGxB,qKAAC;gBAAKL,WAAW,8HAAM,CAACM,IAAI;;kCAC1B,qKAAC;wBAAGN,WAAW,8HAAM,CAACO,KAAK;kCAAE;;;;;;kCAC7B,qKAAC;wBAAEP,WAAW,8HAAM,CAACQ,WAAW;kCAAE;;;;;;;;;;;;;;;;;;AAI1C"}}]
-}
