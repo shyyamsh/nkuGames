@@ -1,11 +1,1 @@
-{"timestamp":"00:00:00.581","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:02:14.721","source":"Server","level":"ERROR","message":"⨯ Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:14.736","source":"Server","level":"ERROR","message":"⨯ Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:14.753","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:14.773","source":"Server","level":"ERROR","message":"⨯ Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:14.792","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:37.864","source":"Server","level":"ERROR","message":"⨯ Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:37.879","source":"Server","level":"ERROR","message":"⨯ Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:37.893","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:37.907","source":"Server","level":"ERROR","message":"⨯ Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
-{"timestamp":"00:02:37.923","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, open 'E:\\SecondSem\\programming\\nkuGames\\.next\\dev\\server\\pages\\_app\\build-manifest.json'"}
+{"timestamp":"00:00:00.842","source":"Server","level":"LOG","message":""}
