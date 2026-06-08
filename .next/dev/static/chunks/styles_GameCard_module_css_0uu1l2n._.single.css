@@ -1,0 +1,29 @@
+/* [project]/styles/GameCard.module.css [client] (css) */
+.GameCard-module__YJEsyG__card {
+  background: #fff;
+  border-radius: 8px;
+  transition: transform .3s;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.GameCard-module__YJEsyG__card:hover {
+  transform: translateY(-4px);
+}
+
+.GameCard-module__YJEsyG__image {
+  width: 100%;
+  height: auto;
+}
+
+.GameCard-module__YJEsyG__card h3 {
+  margin: .5rem;
+  font-size: 1.2rem;
+}
+
+.GameCard-module__YJEsyG__card p {
+  color: #555;
+  margin: .5rem;
+}
+
+/*# sourceMappingURL=styles_GameCard_module_css_0uu1l2n._.single.css.map*/

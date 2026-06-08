@@ -1,17 +1,22 @@
 {
   "pages": {
     "/": [
-      "static/chunks/node_modules_next_dist_compiled_14ibvna._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_0pizcwv._.js",
-      "static/chunks/node_modules_next_dist_client_16lnmlo._.js",
+      "static/chunks/node_modules_next_dist_compiled_0kw0nba._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_04sei6_._.js",
+      "static/chunks/node_modules_next_dist_client_1oox48h._.js",
       "static/chunks/node_modules_next_dist_0zk-zb1._.js",
-      "static/chunks/node_modules_next_head_0wi9zur.js",
-      "static/chunks/node_modules_react-dom_0kla17-._.js",
-      "static/chunks/node_modules_1z0m79v._.js",
-      "static/chunks/[root-of-the-server]__12hec-y._.js",
-      "static/chunks/styles_Home_module_1avfead.css",
+      "static/chunks/node_modules_next_13hdd3y._.js",
+      "static/chunks/node_modules_react_1upe4-7._.js",
+      "static/chunks/node_modules_react-dom_cjs_react-dom_development_0d3scg3.js",
+      "static/chunks/node_modules_react-dom_13voigl._.js",
+      "static/chunks/node_modules_three_build_three_module_19vulgt.js",
+      "static/chunks/node_modules_react-reconciler_1x5dsvx._.js",
+      "static/chunks/node_modules_@react-three_fiber_dist_0-r6uz6._.js",
+      "static/chunks/node_modules_0q5355p._.js",
+      "static/chunks/[root-of-the-server]__0af3dlw._.js",
+      "static/chunks/styles_1f4tjky._.css",
       "static/chunks/pages_index_0du2_q-._.js",
-      "static/chunks/turbopack-pages_index_1o-hogu._.js"
+      "static/chunks/turbopack-pages_index_0op_w7_._.js"
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_14ibvna._.js",
@@ -20,11 +25,13 @@
       "static/chunks/node_modules_next_dist_1gdrd03._.js",
       "static/chunks/node_modules_next_app_0yrdk3r.js",
       "static/chunks/[next]_entry_page-loader_ts_0z3haqk._.js",
-      "static/chunks/node_modules_react-dom_0kla17-._.js",
-      "static/chunks/node_modules_10e2-xo._.js",
+      "static/chunks/node_modules_react_1gmfq0p._.js",
+      "static/chunks/node_modules_react-dom_cjs_react-dom_development_0d3scg3.js",
+      "static/chunks/node_modules_react-dom_13voigl._.js",
+      "static/chunks/node_modules_1duyjba._.js",
       "static/chunks/[root-of-the-server]__0l4r13l._.js",
       "static/chunks/pages__app_0du2_q-._.js",
-      "static/chunks/turbopack-pages__app_1ouknez._.js"
+      "static/chunks/turbopack-pages__app_1u6oq-j._.js"
     ]
   },
   "devFiles": [],

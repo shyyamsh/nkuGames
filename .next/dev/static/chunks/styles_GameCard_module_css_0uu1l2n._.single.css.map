@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/GameCard.module.css"],"sourcesContent":["/* Card layout for game previews */\r\n.card {\r\n  background: #ffffff;\r\n  border-radius: 8px;\r\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\r\n  overflow: hidden;\r\n  transition: transform 0.3s ease;\r\n}\r\n\r\n.card:hover {\r\n  transform: translateY(-4px);\r\n}\r\n\r\n.image {\r\n  width: 100%;\r\n  height: auto;\r\n}\r\n\r\n/* Scoped heading and paragraph styles */\r\n.card h3 {\r\n  margin: 0.5rem;\r\n  font-size: 1.2rem;\r\n}\r\n\r\n.card p {\r\n  margin: 0.5rem;\r\n  color: #555;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;;AAQA;;;;AAIA;;;;;AAMA;;;;;AAKA"}}]
+}

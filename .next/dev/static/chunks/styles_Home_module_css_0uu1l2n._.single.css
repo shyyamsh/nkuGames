@@ -1,0 +1,47 @@
+/* [project]/styles/Home.module.css [client] (css) */
+.Home-module__g21JLG__container {
+  background: url("/images/3d-bg.png") center / cover no-repeat fixed;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+.Home-module__g21JLG__main {
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  display: flex;
+}
+
+.Home-module__g21JLG__title {
+  margin: .5rem 0;
+  font-size: 3rem;
+}
+
+.Home-module__g21JLG__description {
+  color: #666;
+  font-size: 1.25rem;
+}
+
+.Home-module__g21JLG__gameGrid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1rem;
+  display: grid;
+}
+
+@media (max-width: 600px) {
+  .Home-module__g21JLG__title {
+    font-size: 2.5rem;
+  }
+
+  .Home-module__g21JLG__description {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=styles_Home_module_css_0uu1l2n._.single.css.map*/

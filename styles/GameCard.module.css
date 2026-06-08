@@ -1,0 +1,28 @@
+/* Card layout for game previews */
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* Scoped heading and paragraph styles */
+.card h3 {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0.5rem;
+  color: #555;
+}
