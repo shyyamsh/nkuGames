@@ -18,36 +18,6 @@
       "static/chunks/pages_index_0du2_q-._.js",
       "static/chunks/turbopack-pages_index_1193t4t._.js"
     ],
-    "/MineSweeper": [
-      "static/chunks/node_modules_next_dist_compiled_14ibvna._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_1ey4izv._.js",
-      "static/chunks/node_modules_next_dist_client_01nfwoe._.js",
-      "static/chunks/node_modules_next_dist_0zk-zb1._.js",
-      "static/chunks/node_modules_next_0z7-5_z._.js",
-      "static/chunks/node_modules_react_1upe4-7._.js",
-      "static/chunks/node_modules_react-dom_cjs_react-dom_development_0d3scg3.js",
-      "static/chunks/node_modules_react-dom_13voigl._.js",
-      "static/chunks/node_modules_1duyjba._.js",
-      "static/chunks/[root-of-the-server]__1ustdvr._.js",
-      "static/chunks/styles_NavBar_module_0ke74-7.css",
-      "static/chunks/pages_MineSweeper_0du2_q-._.js",
-      "static/chunks/turbopack-pages_MineSweeper_0sx5cbg._.js"
-    ],
-    "/RetroSnake": [
-      "static/chunks/node_modules_next_dist_compiled_14ibvna._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_1ey4izv._.js",
-      "static/chunks/node_modules_next_dist_client_01nfwoe._.js",
-      "static/chunks/node_modules_next_dist_0zk-zb1._.js",
-      "static/chunks/node_modules_next_0z7-5_z._.js",
-      "static/chunks/node_modules_react_1upe4-7._.js",
-      "static/chunks/node_modules_react-dom_cjs_react-dom_development_0d3scg3.js",
-      "static/chunks/node_modules_react-dom_13voigl._.js",
-      "static/chunks/node_modules_1duyjba._.js",
-      "static/chunks/[root-of-the-server]__1dlt26v._.js",
-      "static/chunks/styles_NavBar_module_0ke74-7.css",
-      "static/chunks/pages_RetroSnake_0du2_q-._.js",
-      "static/chunks/turbopack-pages_RetroSnake_0shiwz1._.js"
-    ],
     "/Tetris": [
       "static/chunks/node_modules_next_dist_compiled_14ibvna._.js",
       "static/chunks/node_modules_next_dist_shared_lib_1ey4izv._.js",
@@ -58,10 +28,10 @@
       "static/chunks/node_modules_react-dom_cjs_react-dom_development_0d3scg3.js",
       "static/chunks/node_modules_react-dom_13voigl._.js",
       "static/chunks/node_modules_1duyjba._.js",
-      "static/chunks/[root-of-the-server]__1x1_ztf._.js",
+      "static/chunks/[root-of-the-server]__0g1namk._.js",
       "static/chunks/styles_NavBar_module_0ke74-7.css",
       "static/chunks/pages_Tetris_0du2_q-._.js",
-      "static/chunks/turbopack-pages_Tetris_19g3jxx._.js"
+      "static/chunks/turbopack-pages_Tetris_0x9l9dj._.js"
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_14ibvna._.js",
@@ -77,6 +47,20 @@
       "static/chunks/[root-of-the-server]__0l4r13l._.js",
       "static/chunks/pages__app_0du2_q-._.js",
       "static/chunks/turbopack-pages__app_1u6oq-j._.js"
+    ],
+    "/_error": [
+      "static/chunks/node_modules_next_dist_compiled_14ibvna._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_0pizcwv._.js",
+      "static/chunks/node_modules_next_dist_client_16lnmlo._.js",
+      "static/chunks/node_modules_next_dist_1atto1n._.js",
+      "static/chunks/[next]_entry_page-loader_ts_1aoli7m._.js",
+      "static/chunks/node_modules_react_1gmfq0p._.js",
+      "static/chunks/node_modules_react-dom_cjs_react-dom_development_0d3scg3.js",
+      "static/chunks/node_modules_react-dom_13voigl._.js",
+      "static/chunks/node_modules_1duyjba._.js",
+      "static/chunks/[root-of-the-server]__02sxxph._.js",
+      "static/chunks/pages__error_0du2_q-._.js",
+      "static/chunks/turbopack-pages__error_1mp2l-t._.js"
     ]
   },
   "devFiles": [],

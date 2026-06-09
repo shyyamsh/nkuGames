@@ -2,14 +2,11 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
-  "/MineSweeper": [
-    "static/chunks/pages/MineSweeper.js"
-  ],
-  "/RetroSnake": [
-    "static/chunks/pages/RetroSnake.js"
-  ],
   "/Tetris": [
     "static/chunks/pages/Tetris.js"
+  ],
+  "/_error": [
+    "static/chunks/pages/_error.js"
   ],
   "__rewrites": {
     "afterFiles": [],

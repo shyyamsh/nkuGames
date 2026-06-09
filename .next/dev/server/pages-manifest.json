@@ -1,8 +1,7 @@
 {
   "/": "pages/index.js",
-  "/MineSweeper": "pages/MineSweeper.js",
-  "/RetroSnake": "pages/RetroSnake.js",
   "/Tetris": "pages/Tetris.js",
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js"
 }

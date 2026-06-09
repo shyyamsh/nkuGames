@@ -1,6 +1,6 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/Tetris.js")
 R.c("server/chunks/ssr/node_modules_0ry-en2._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__1f_k7je._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0n1oe5t._.js")
 R.c("server/chunks/ssr/node_modules_1_aarlg._.js")
 R.c("server/chunks/ssr/[externals]__1vp7etu._.js")
 R.c("server/chunks/ssr/node_modules_next_1_o5zxs._.js")

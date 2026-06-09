@@ -82,6 +82,7 @@ void DrawBorder(void)
     rectangle(left, top, right, bottom);
     rectangle(left - 2, top - 2, right + 2, bottom + 2);
 
+
     // 2. Right-Top : Next Tetris
     int left2 = right + 20;
     int top2 = top;
@@ -326,15 +327,49 @@ void UpdateGameArea()
 
 void RemoveAllOccupiedRows()
 {
+    int linesCleared = 0; // count how many rows were removed
     for ( int iy = ga_height - 1 ; iy > 0 ; iy -- )
     {
         if ( IsOccupiedCompletely(iy) )
         {
             RemoveRow(iy);
+            linesCleared++;
+            // after removing a row, recheck the same index because rows have shifted down
             iy = iy + 1;
         }
     }
+    if (linesCleared > 0)
+    {
+        // increase score: 100 points per line cleared
+        score += linesCleared * 100;
+        UpdateScore();
+    }
     UpdateGameArea();
+}
+
+// Check if any block has reached the top row, indicating game over.
+bool CheckGameOver(void)
+{
+    for (int ix = 0; ix < ga_width; ++ix)
+    {
+        if (LandedBlock[ix][0] > 0)
+            return true;
+    }
+    return false;
+}
+
+void ShowGameOver(void)
+{
+    // Clear the game area and display a simple message
+    cleardevice();
+    setcolor(RED); // ensure text is visible
+    settextstyle(2, 0, 5);
+    outtextxy(origin_x + ga_width * block_width / 4, origin_y + ga_height * block_width / 3,
+              "GAME OVER");
+    char buf[64];
+    sprintf(buf, "Final Score: %d", score);
+    outtextxy(origin_x + ga_width * block_width / 4, origin_y + ga_height * block_width / 2,
+              buf);
 }
 
 int main(void)
@@ -365,15 +400,15 @@ int main(void)
     {
         char Input = getch();
         EraseTetris(x, y , Type, Rotate);
-        if (Input == 'a' && CanMoveLeft() == true)
+        if ((Input == 'a' || Input == 75) && CanMoveLeft() == true) // Left key
         {
             x = x - 1;
         }
-        else if (Input == 'd' && CanMoveRight() == true)
+        else if ((Input == 'd' || Input == 77) && CanMoveRight() == true) // Right key
         {
             x = x + 1;
         }
-        else if ( Input == 's' )
+        else if ( Input == 's' || Input == 80 ) // Down key
         {
             if ( CanFall() )
             {
@@ -381,17 +416,24 @@ int main(void)
             }
             else
             {
-                LandBlock();
-                DrawTetris(x, y, Type, Rotate);
+                        LandBlock();
+                        DrawTetris(x, y , Type, Rotate);
 
-                RemoveAllOccupiedRows();
+                        // Check for game over before clearing rows
+                        if (CheckGameOver())
+                        {
+                            ShowGameOver();
+                            break;
+                        }
 
-                EraseTetris(next_x, next_y, NextType, NextRotate);
-                GenTetris();
-                DrawTetris(next_x, next_y, NextType, NextRotate);
+                        RemoveAllOccupiedRows();
+
+                EraseTetris(next_x, next_y, NextType, NextRotate); // Clear the previous "Next" block display
+                GenTetris(); // Generate a new block and update the "Next" block information
+                DrawTetris(next_x, next_y, NextType, NextRotate); // Display the new "Next" block
             }
         }
-        else if ( Input == 'w' && CanRotate())
+        else if ( (Input == 'w' || Input == 72) && CanRotate())
         {
             Rotate = (Rotate + 1) % 4;
         }
@@ -413,7 +455,15 @@ int main(void)
         {
             RemoveRow(19);
             UpdateGameArea();
+                
+                // After landing a block, check for game over condition
+                if (CheckGameOver())
+                {
+                    ShowGameOver();
+                    break;
+                }
         }
+        
         else if ( Input >= '0' && Input < '7' )
         {
             Type = Input - '0';

@@ -8,8 +8,8 @@ __turbopack_load_page_chunks__("/Tetris", [
   "static/chunks/node_modules_react-dom_cjs_react-dom_development_0d3scg3.js",
   "static/chunks/node_modules_react-dom_13voigl._.js",
   "static/chunks/node_modules_1duyjba._.js",
-  "static/chunks/[root-of-the-server]__1x1_ztf._.js",
+  "static/chunks/[root-of-the-server]__0g1namk._.js",
   "static/chunks/styles_NavBar_module_0ke74-7.css",
   "static/chunks/pages_Tetris_0du2_q-._.js",
-  "static/chunks/turbopack-pages_Tetris_19g3jxx._.js"
+  "static/chunks/turbopack-pages_Tetris_0x9l9dj._.js"
 ])
